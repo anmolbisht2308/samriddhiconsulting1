@@ -1,0 +1,233 @@
+
+body {
+    margin: 0;
+    font-family: montserrat,-apple-system,BlinkMacSystemFont,segoe ui,helvetica neue,Arial,noto sans,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol,noto color emoji;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #171c18;
+    text-align: left;
+    background-color: rgb(255, 255, 255);
+}
+
+
+.navbars{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 50px;
+}
+.mnav{
+   
+   
+  
+}
+.navbar{
+    height: 50px;
+    background-color: white;
+    border-bottom: 2px solid rgb(186, 181, 181);
+}
+.lnav img{
+    width: 50px;
+    height: 40px;
+    position: relative;
+    left: -84px;
+}
+.dropdown-menu,.nav-item{
+    margin: 80px;
+}
+
+.rnav img{
+   
+    margin: 20px;
+    position: relative;
+    right: -50px;
+    
+}
+
+.first{
+    background-color: #c7d1c9;
+    margin: 35px;
+    border-radius: 0.25rem;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.first a{
+    color: #13862c;
+    text-decoration: none;
+   ;
+}
+.first span,.first a{
+    position: relative;
+    top: 7px;
+  
+   margin: 10px;
+}
+
+.second{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-bottom: 1px solid rgb(223, 223, 223);
+}
+
+.second h1{
+    font-size: 5.5rem;
+    font-weight: 600;
+}
+.second p{
+    color: grey;
+    font-size: 1.5rem;
+}
+
+.third{
+  
+}
+.ttop,.tbottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+   
+}
+.ttop a{
+text-decoration: none;
+color: grey;
+font-size: 1.2rem;
+
+}
+.ttop p{
+    color: grey;
+    font-size: 1.2rem;
+}
+.tbottom img{
+   border-radius: 50%;
+}
+.oval{
+    background-color: #86136d;
+    border-radius: 10rem;
+    text-align: center;
+    padding: 5px;
+    height: 25px;
+   
+}
+.oval p{
+    color: white;
+    font-weight: 700;
+    font-size: 0.7rem;
+  
+}
+.img1 img{
+    margin: 6px;
+}
+.img1 p{
+    font-size: 1.1rem;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px 10px rgb(205, 204, 204);
+    
+}
+.form h3{
+    margin-top: 40PX;
+}
+
+.form input{
+    border: 1.5px rgb(162, 162, 162) solid;
+    width: 100%;
+    text-align: center;
+    margin: 4px;
+}
+
+.form div{
+    border: 1.5px rgb(162, 162, 162) solid;
+    width: 100%;
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-weight: 700;
+    height: 30px;
+    margin-bottom: 40px;
+}
+
+.fourth .ftop{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.ftop img{
+  height: 17px;
+}
+.ftop p{
+    position: relative;
+top: 6px;
+}
+.fourth{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.line .left{
+    display: flex;
+    flex-direction: column;
+}
+.line .mid{
+    display: flex;
+    flex-direction: column;
+}
+.line .right{
+    display: flex;
+    flex-direction: column;
+}
+.read-more{
+    width: 100%;
+    background-color: rgb(239, 235, 235);
+    margin-top: 10px;
+    border: 1px solid rgba(0,0,0,.125)
+}
+.read-more h3{
+    position: relative;
+    left: 10px;
+    color: rgb(136, 119, 119);
+    font-weight: 300;
+    font-size: 1.5rem;
+}
+.line{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.line img{
+    flex-shrink: 0;
+    width: 100%;
+}
+.left,.mid,.right{
+    margin: 10px;
+}
+.mid{
+    position: relative;
+    top: 25px;
+}
+
+
+.last{
+    width: 430px;
+    margin: 10px;
+    position: relative;
+    left: -10px;
+}
